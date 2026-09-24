@@ -1,0 +1,10 @@
+Fuentes de los documentos de la carpeta docs/:
+
+  paper/informe_paper.tex -> Informe_Ejecutivo_StreamView.pdf (formato paper IEEE)
+      1) desde la raíz del proyecto: python -m src.graficos_paper
+      2) en esta carpeta paper/:     pdflatex informe_paper.tex  (dos veces)
+      Requiere TeX Live con IEEEtran, babel-spanish y TikZ.
+
+  deck.js -> Presentación_Ejecutiva_StreamView.pptx   (node deck.js; requiere npm "pptxgenjs")
+  guia.js -> Guía_Defensa_StreamView.docx             (node guia.js; requiere npm "docx")
+  Las rutas son relativas a esta carpeta; el PDF de cada uno se exporta desde PowerPoint/Word o LibreOffice.

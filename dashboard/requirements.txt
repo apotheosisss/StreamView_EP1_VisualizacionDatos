@@ -1,0 +1,6 @@
+# Dependencias mínimas del dashboard (Streamlit Community Cloud usa este archivo
+# antes que el requirements.txt de la raíz, que incluye Jupyter y matplotlib).
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+streamlit>=1.40
