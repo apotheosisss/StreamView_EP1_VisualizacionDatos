@@ -1,8 +1,13 @@
 Fuentes de los documentos de la carpeta docs/:
 
-  paper/informe_paper.tex -> Informe_Ejecutivo_StreamView.pdf (formato paper IEEE)
+  informe_ejecutivo/generar_informe.py -> Informe_Ejecutivo_StreamView.pdf (informe para gerencia)
+      desde la raíz del proyecto: python docs/fuentes_generacion/informe_ejecutivo/generar_informe.py
+      Requiere pandas y scipy, y Microsoft Edge o Google Chrome para imprimir el PDF.
+
+  paper/informe_paper.tex -> Informe_Tecnico_StreamView.pdf (formato paper IEEE)
       1) desde la raíz del proyecto: python -m src.graficos_paper
       2) en esta carpeta paper/:     pdflatex informe_paper.tex  (dos veces)
+      3) copiar informe_paper.pdf a docs/Informe_Tecnico_StreamView.pdf
       Requiere TeX Live con IEEEtran, babel-spanish y TikZ.
 
   deck.js -> Presentación_Ejecutiva_StreamView.pptx   (node deck.js; requiere npm "pptxgenjs")

@@ -5,3 +5,6 @@ __pycache__/
 
 # Material interno de ensayo (no forma parte de la entrega)
 docs/Pitch_Ensayo_StreamView.md
+
+# HTML intermedio del informe ejecutivo (se regenera con generar_informe.py)
+docs/fuentes_generacion/informe_ejecutivo/informe_ejecutivo.html

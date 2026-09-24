@@ -31,11 +31,12 @@ StreamView_EP1_VisualizacionDatos/
 |   `-- app.py                 <- dashboard interactivo (Streamlit + Plotly)
 |-- images/                    <- figuras (fig01-fig09) y capturas del dashboard
 `-- docs/
-    |-- Informe_Ejecutivo_StreamView.pdf   <- informe en formato paper (IEEE)
+    |-- Informe_Ejecutivo_StreamView.pdf   <- informe ejecutivo para gerencia (10 secciones de la pauta)
+    |-- Informe_Tecnico_StreamView.pdf     <- informe técnico en formato paper (IEEE): metodología completa
     |-- VALIDACION.md                      <- verificación de cifras y correcciones
     |-- Presentación_Ejecutiva_StreamView.pptx / .pdf   <- resumen ejecutivo
     |-- Guía_Defensa_StreamView.pdf / .docx
-    `-- fuentes_generacion/    <- LaTeX del paper (paper/) y scripts de la presentación y la guía
+    `-- fuentes_generacion/    <- generador del informe ejecutivo (informe_ejecutivo/), LaTeX del informe técnico (paper/) y scripts de la presentación y la guía
 ```
 
 ## Cómo ejecutar (Python 3.10 o superior)
@@ -50,6 +51,7 @@ pip install -r requirements.txt
 python -m src.preparacion
 python -m src.graficos
 python -m src.graficos_paper
+python docs/fuentes_generacion/informe_ejecutivo/generar_informe.py   # informe ejecutivo (HTML + PDF)
 python -m src.verificacion      # debe terminar con "76/76 cifras verificadas"
 
 # 3. Abrir el dashboard (desde la raíz del proyecto)
@@ -87,7 +89,7 @@ botón para restablecer y descarga de la selección en CSV.
 Las fuentes son catálogos públicos con metadatos de TMDB (votos, calificación y popularidad
 provienen de la comunidad TMDB, no de usuarios de StreamView) y no describen el comportamiento
 individual (reproducciones, suscripciones, dispositivos). La muestra está balanceada (1.000 títulos por año y tipo),
-por lo que no se analiza el crecimiento del volumen. Detalle en el paper (`docs/Informe_Ejecutivo_StreamView.pdf`, sección X) y en `docs/VALIDACION.md`.
+por lo que no se analiza el crecimiento del volumen. Detalle en el informe técnico (`docs/Informe_Tecnico_StreamView.pdf`, sección X) y en `docs/VALIDACION.md`.
 
 ## Nota sobre nombres
 
