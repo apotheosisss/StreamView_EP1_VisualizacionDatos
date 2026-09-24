@@ -126,7 +126,7 @@ function PORTADA(titulo, subtitulo) {
       ["Evaluación", "Evaluación Parcial N°1 (Encargo y Presentación)"],
       ["Cliente", "StreamView Analytics (caso)"],
       ["Integrantes", "Claudio Aro\nGuillermo Cerda\nManuel Díaz"],
-      ["Docente", "Claudio Andrés Gonzalez Penaloza"],
+      ["Docente", "Claudio Andrés Gonzalez Peñaloza"],
       ["Fecha", "Septiembre de 2026"],
     ].map((f) => new TableRow({ children: f.map((t, j) => new TableCell({
       borders: { top: { style: BorderStyle.NONE, size: 0, color: "FFFFFF" }, bottom: { style: BorderStyle.SINGLE, size: 2, color: "D0D3D8" },

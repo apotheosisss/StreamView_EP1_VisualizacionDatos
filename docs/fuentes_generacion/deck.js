@@ -53,7 +53,7 @@ T(s, "Qué contenido genera interacción en StreamView y cuál el usuario no alc
   circulo(s, 0.6 + i * 2.6, 3.85, 0.55, "3A4254", ini);
   T(s, n, { x: 1.28 + i * 2.6, y: 3.97, w: 1.9, h: 0.35, fontSize: 14, color: "FFFFFF" });
 });
-T(s, "Docente: Claudio Andrés Gonzalez Penaloza  |  Duoc UC, sede Puerto Montt  |  Septiembre 2026", { x: 0.6, y: 4.95, w: 8.8, h: 0.3, fontSize: MIN, color: GRISC });
+T(s, "Docente: Claudio Andrés Gonzalez Peñaloza  |  Duoc UC, sede Puerto Montt  |  Septiembre 2026", { x: 0.6, y: 4.95, w: 8.8, h: 0.3, fontSize: MIN, color: GRISC });
 s.addNotes("[Claudio - 15 s] Buenos días. Somos el equipo consultor contratado por StreamView Analytics. En 10 minutos mostraremos qué contenido genera interacción, cuál valoran los usuarios, qué parte del catálogo no se descubre y qué decisiones proponemos. Yo presento el problema, la estrategia, la metodología y los datos; Guillermo, los hallazgos y por qué elegimos cada gráfico; Manuel, la solución y las recomendaciones.");
 
 // ================================================================== 2 problema y audiencia

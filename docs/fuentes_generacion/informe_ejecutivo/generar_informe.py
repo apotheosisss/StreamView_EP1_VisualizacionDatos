@@ -340,7 +340,7 @@ def construir(d):
     nadie está alcanzando a ver.</p>
   </div>
   <div class="meta">ADY1104 Visualización de Datos | Evaluación Parcial N°1 (encargo) | Duoc UC, sede Puerto Montt<br>
-  Equipo consultor: Claudio Aro, Guillermo Cerda y Manuel Díaz | Docente: Claudio Andrés Gonzalez Penaloza<br>
+  Equipo consultor: Claudio Aro, Guillermo Cerda y Manuel Díaz | Docente: Claudio Andrés Gonzalez Peñaloza<br>
   Septiembre de 2026</div>
 
   <h2>La respuesta en un minuto</h2>
